@@ -109,6 +109,7 @@ function gamelog.update(dt)
 
     if gamelog.timer > 1 then
       gamelog.message = ""
+      gamelog.timer = 0
     end
   end
 end
